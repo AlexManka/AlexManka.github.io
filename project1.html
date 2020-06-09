@@ -1,0 +1,85 @@
+<html>
+
+    <head>
+        <title>Homepage</title>
+
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+    </head>
+
+
+    <body>
+        <nav class="top-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="resume.html">RESUME</a></li>
+                <li><a href="bio.html">BIO</a></li>
+                <li>PROJECTS
+                    <ul class="pulldown-menu">
+                        <li><a href="project1.html">PROJECT 1</a></li>
+                        <li>PROJECT 2</li>
+                        <li>PROJECT 3</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <img class="project-art" src="images/project1.jpg" atl="project 1">
+
+            <p class="project-title">
+                The GaitKeeper Executive Summary
+            </p>
+
+            <p class="project-subtitle">
+                Problem
+            </p>
+
+            <p class="project-description">
+                Some patients have sternal precautions after open-heart surgery that advise against overexerting their pectoral muscles. The same patients also use walkers during rehabilitation to help them recover after the surgery. However, the physical therapists assisting the patients currently have no way of measuring how much force the patient exerts on the walker; they cannot monitor the patient’s sternal precautions. Thus, they often resort to unconventional methods such as having the patient step over the therapists foot to measure the weight exerted. Our client, Ms. Erin Walaszek, asked us to create a device that can measure the force a patient exerts on the walker.
+            </p>
+            
+            <p class="project-subtitle">
+                Purpose and requirements
+            </p>
+
+            <p class="project-description">
+                The purpose of the design is to measure and display the force that a patient exerts on the handles of a walker in real-time during a walking exercise. The design should be safe, compatible with a standard Guardian walker, and easy to use.
+            </p> 
+
+            <p class="project-subtitle">
+                Methodology
+            </p>
+
+            <p class="project-description">
+                We observed a patient and physical therapist at the Shirley Ryan AbilityLab to understand how they typically interact with the walker and the difficulties that they encounter. Then, we developed four mockups, conducted performance testing on each mockup, and interviewed the client about the viability of each design concept. Using the client’s feedback, we narrowed down our options to one of the four mockups and tested that mockup in a controlled environment. With this data, we developed a final design for a prototype and built it.
+            </p> 
+
+            <p class="project-subtitle">
+                Design
+            </p>
+
+            <p class="project-description">
+                Our design, the GaitKeeper, consists of three major components: the force sensors on each handle, the display box, and the electrical hub. The force sensors are load cells, designed to sense a load up to 50 kg each. The load cells send an electrical signal in the form of a potential difference to the display box. The display box is a 3D-printed box with a transparent surface for the digital display. The display box stores and protects the electrical hub and is attached to the walker via a rolling clamp. The electrical hub contains all of the electrical equipment minus the sensors. This includes the display, the microprocessor, and the signal amplifier. The signal from the sensors is sent to the amplifier, which increases the amplitude of the incoming signal. This amplified signal is sent to the microprocessor, an Arduino Nano, which evaluates the information from the incoming signal and generates an outgoing signal for the display. The outgoing signal is sent to a 1.8” x 1” thin-film-transistor display, which finally gets read by the supervising physical therapist.
+            </p>
+            
+            <embed class="resume" src="project - 1.pdf" />
+            <a href="project - 1.pdf" download>Download</a>
+        </main>
+
+        <div class="footer">
+            <div class="footer-info">
+                CONTACT INFO:
+            </div>
+            <div class="footer-info">
+                email: alexmanka2022@u.northwestern.edu
+            </div>
+            <div class="footer-info">
+                phone: 815.622.8576
+            </div>
+            <div class="footer-info">
+                linkedin: <a href="https://www.linkedin.com/in/alex-manka/" style="color:white">https://www.linkedin.com/in/alex-manka/</a>
+            </div>
+        </div>
+    </body>
+
+</html>
